@@ -11,7 +11,6 @@ public class Spill {
 	@Id
 	private int spillID;
 	
-	@OneToMany(mappedBy = "spill")
 	private List<Spiller> spillere;
 	
 	public int getSpillID() {
